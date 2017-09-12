@@ -1,0 +1,25 @@
+{
+  "name": "badgeuse-jommani",
+  "version": "1.0.2",
+  "description": "badgeuse est une appareil pour identifiers les personnelles de la société selon le bus et l'heur de auquelle il a pointé cree par geo.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "forever": "^0.15.3",
+    "getmac": "^1.2.1",
+    "lcdi2c": "^1.0.6",
+    "moment": "^2.18.1",
+    "mysql": "^2.5.4",
+    "onoff": "^1.1.7",
+    "rc522": "^0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/karouani/badgeuse-jommani.git"
+  },
+  "author": "yassine karouani <ykarouani@gmail.com>",
+  "license": "ISC"
+}
