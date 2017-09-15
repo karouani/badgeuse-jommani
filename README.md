@@ -1,3 +1,4 @@
+<pre>
 # badgeuse-jommani
 badgeuse est une appareil pour identifiers les personnelles de la société selon le bus et l'heur de auquelle il a pointé cree par geo.com
 
@@ -28,6 +29,8 @@ $ sudo dpkg --install webmin-virtual-server_6.00.gpl_all.deb
 
 webmin ==> theme ==> http://download.webmin.com/download/virtualmin/virtual-server-theme-9.3.wbt.gz
 
-install nodejs.
-install webmin/virtualmin(apache/mysql)
-activer les gpios
+$ sudo apt-get --force-yes install -y apache2 apache2-doc libapache2-svn libsasl2-2 libsasl2-modules sasl2-bin php-pear php5 php5-cgi libapache2-mod-php5 php5-mysql apache2-suexec
+$ nano etc/apache2/suexec/www-data
+s|/var/www|/home
+
+</pre>
